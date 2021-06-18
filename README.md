@@ -2,7 +2,7 @@
 
 This repo is for the public facing website of Digital Workers Guild LLC.
 
-##Relevant Links
+## Relevant Links
 - URL: [digitalworkersguild.com](digitalworkersguild.com) 
 - Alias: [dwg.dev](dwg.dev) 
 - Hosted on: [Netlify](https://app.netlify.com/sites/digitalworkersguild/overview) 
