@@ -1,0 +1,17 @@
+/* Custom Properties */
+.u-visually-hidden {
+    visibility: hidden;
+    color: black;
+}
+input,
+textarea,
+select,
+button {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display : block;
+}
+.u-main-message {
+    height: 200px;
+}
