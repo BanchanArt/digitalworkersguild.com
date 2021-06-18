@@ -1,0 +1,102 @@
+baseURL = "http://digitalworkersguild.com"
+languageCode = "en-us"
+title = "Digital Workers Guild LLC"
+theme = "hello-friend-ng"
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+[author]
+  name = "Digital Workers Guild LLC"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "We build good products for the greater good."
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = true
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+
+  # Metadata mostly used in document's head
+  description = "The digital home of the Digital Workers Guild"
+  keywords = "homepage, Digital, Workers, Guild"
+  images = [""]
+
+
+  # Enable theme toggle
+  # 
+  # This options enables the theme toggle for the theme. 
+  # Per default, this option is off. 
+  # The theme is respecting the prefers-color-scheme of the operating systeme. 
+  # With this option on, the page user is able to set the scheme he wants. 
+
+  enableThemeToggle = true
+
+  # Set a background for the homepage
+  # backgroundImage = "assets/images/background.jpg"
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  #
+  customCSS = []
+  customJS  = []
+
+  [params.footer]
+    trademark = true
+    rss = false
+    copyright = false
+    author = true
+
+    topText = []
+    bottomText = ["Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+            "Theme Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"]
+
+
+[taxonomies]
+    category = "categories"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Digital Workers Guild LLC"
+    subtitle = "We build good products for the greater good."
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "$ cd /dwg/"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "pages/about/"
+  # [[menu.main]]
+  #  identifier = "contact"
+  #  name       = "Contact"
+  #  url        = "pages/contact/"
+
+  # Social icons
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/digitalworkersguild"
+
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/TheDWGuild/"
+
+
