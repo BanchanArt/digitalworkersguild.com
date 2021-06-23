@@ -1,0 +1,30 @@
+---
+title: "Contact"
+date: 2021-06-18T16:40:09-04:00
+draft: false
+---
+
+<form name="public-website-contact-form" netlify-honeypot="bot-field" method="POST" netlify>
+  <p class="u-visually-hidden">
+    <label>Don’t fill this out if you're human: <input name="bot-field"></label>
+  </p>
+    <p>
+    <label>From <input type="text" name="name" placeholder="Your Name"/></label>   
+  </p>
+  <p>
+    <label>Reply <input type="email" name="email" placeholder="hello@example.com"/></label>
+  </p>
+  <p>
+    <label>Topic <select name="topic[]" >
+      <option value="business">Business Inquiry</option>
+      <option value="funding">Funding</option>
+      <option value="misc">Misc</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message <textarea name="message" class="u-main-message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send your message >>></button>
+  </p>
+</form>

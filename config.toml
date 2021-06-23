@@ -45,7 +45,7 @@ theme = "hello-friend-ng"
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
   #
-  customCSS = []
+  customCSS = ["/custom-styles.css"]
   customJS  = []
 
 [params.footer]
@@ -88,10 +88,10 @@ theme = "hello-friend-ng"
     identifier = "about"
     name       = "About"
     url        = "pages/about/"
-  # [[menu.main]]
-  #  identifier = "contact"
-  #  name       = "Contact"
-  #  url        = "pages/contact/"
+ [[menu.main]]
+   identifier = "contact"
+   name       = "Contact"
+   url        = "pages/contact/"
 
   # Social icons
   [[params.social]]
